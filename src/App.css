@@ -30,10 +30,14 @@
   }
 
   .project-list {
+    column-count: 3;
+    column-gap: 10px;
     padding: 5px;
 
     .project-list__item {
-      margin: 5px;
+      display: block;
+      width: 100%;
+      margin: 10px;
     }
   }
 }
