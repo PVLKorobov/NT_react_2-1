@@ -1,0 +1,39 @@
+.contents {
+  display: flex;
+  justify-content: center;
+  row-gap: 0px;
+
+  .portfolio {
+    width: 50%;
+    padding: 0.5%;
+  
+    .toolbar {
+      margin: 1%;
+  
+      .toolbar__option {
+        border-radius: 2px;
+        border: 2px solid #b6b6b6;
+        background-color: white;
+        padding: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: large;
+        cursor: pointer;
+      }
+  
+      .toolbar__option.selected {
+        background-color: #b6b6b6;
+      }
+    }
+  }
+
+  .project-list {
+    padding: 5px;
+
+    .project-list__item {
+      margin: 5px;
+    }
+  }
+}
